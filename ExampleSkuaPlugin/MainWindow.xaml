@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Style="{StaticResource CustomWindow}"
         Title="Example Plugin" Height="357" Width="363"
-        Closing="MainWindow_Closing">
+        HideWindow="True">
 
     <wpf:CustomWindow.Resources>
         <ResourceDictionary Source="/ExampleSkuaPlugin;component/ResourceDir.xaml"/>

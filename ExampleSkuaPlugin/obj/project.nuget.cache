@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tzaMojl2y9DXOriOTZjhmikp0h55Rc3Xcsdh8xz3jzVlVPzAm1mYnyqE+IdbJtu06APLZsqEcNXqL5Sc7THtTw==",
+  "dgSpecHash": "JI1kyC7GONg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\koent\\OneDrive\\Documents\\Repositories\\ExampleSkuaPlugin\\ExampleSkuaPlugin\\ExampleSkuaPlugin.csproj",
+  "projectFilePath": "D:\\Repositories\\ExampleSkuaPlugin\\ExampleSkuaPlugin\\ExampleSkuaPlugin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\koent\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\koent\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",

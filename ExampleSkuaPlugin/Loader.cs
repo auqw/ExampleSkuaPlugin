@@ -21,12 +21,7 @@ namespace ExamplePlugin
         {
             Helper = helper;
 
-            helper.AddMenuButton(Name, () =>
-            {
-                MainWindow.Instance.Show();
-                MainWindow.Instance.BringIntoView();
-                MainWindow.Instance.Activate();
-            });
+            helper.AddMenuButton(Name, ShowMainWindow);
 
             Bot?.Log($"{Name} Loaded.");
         }
@@ -35,6 +30,13 @@ namespace ExamplePlugin
         {
             Bot?.Log($"{Name} Unloaded.");
             Helper?.RemoveMenuButton(Name);
+        }
+
+        private void ShowMainWindow()
+        {
+            MainWindow.Instance.Show();
+            MainWindow.Instance.BringIntoView();
+            MainWindow.Instance.Activate();
         }
     }
 }

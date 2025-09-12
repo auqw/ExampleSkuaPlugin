@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExampleSkuaPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17fc8842103fef523ce86b74ac37b2f70f8cfb71")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExampleSkuaPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExampleSkuaPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

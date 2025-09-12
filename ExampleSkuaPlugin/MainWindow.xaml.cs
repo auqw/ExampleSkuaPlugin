@@ -20,15 +20,9 @@ namespace ExamplePlugin
             InitializeComponent();
         }
 
-        private void MainWindow_Closing(object sender, CancelEventArgs e)
-        {
-            e.Cancel = true;
-            Hide();
-        }
-
         private void NameChangeButton_Click(object sender, RoutedEventArgs e)
         {
-            if (Bot != null && NameChangeTxt.Text.Length != 0)
+            if (Bot?.Options != null && !string.IsNullOrEmpty(NameChangeTxt.Text))
             {
                 Bot.Options.CustomName = NameChangeTxt.Text;
             }
